@@ -4,13 +4,10 @@
 
 class Soda {
 public:
-	// Constructeurs
-	Soda(int codeSoda);
 
 	// méthodes
 
-	bool selectionner(int code);
-	void serveSoda();
+	void serveSodaFree();
 	void ouvrireCompartement();
 	void fermerCompartement();
 
@@ -21,11 +18,6 @@ public:
 
 	void setCodeSoda(int codeSoda);
 	int getCodeSoda();
-
-
-private:
-
-	int codeSoda = 0;
 
 
 };

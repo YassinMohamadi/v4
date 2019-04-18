@@ -5,8 +5,8 @@ using namespace std;
 
 int main()
 {
-    Soda s(1);
-    s.serveSoda();
+    Soda s;
+    s.serveSodaFree();
     s.ouvrireCompartement();
     s.fermerCompartement();
 }
